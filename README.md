@@ -1,4 +1,4 @@
-### TODO
+## TODO
 
 - [] Opening
 - [] About
@@ -8,5 +8,9 @@
 
 ## Styling TODO
 
-- [] Colour palette
-- [] Fonts
+- [] [Colour palette](#colour-palette)
+- [] [Fonts](#fonts)
+
+## Fonts
+
+## Colour palette

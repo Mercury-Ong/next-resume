@@ -11,12 +11,29 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
+  about,
+  contact,
+  experience,
+  opening,
+  showcase,
 }: {
   children: React.ReactNode;
+  about: React.ReactNode;
+  contact: React.ReactNode;
+  experience: React.ReactNode;
+  opening: React.ReactNode;
+  showcase: React.ReactNode;
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children}
+        {opening}
+        {about}
+        {experience}
+        {showcase}
+        {contact}
+      </body>
     </html>
   );
 }
