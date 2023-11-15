@@ -1,15 +1,15 @@
 ## TODO
 
-- [] Opening
-- [] About
-- [] Experience
-- [] Showcase
-- [] Contact
+- [ ] Opening
+- [ ] About
+- [ ] Experience
+- [ ] Showcase
+- [ ] Contact
 
 ## Styling TODO
 
-- [] [Colour palette](#colour-palette)
-- [] [Fonts](#fonts)
+- [ ] [Colour palette](#colour-palette)
+- [ ] [Fonts](#fonts)
 
 ## Fonts
 
