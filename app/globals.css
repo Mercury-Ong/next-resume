@@ -4,14 +4,14 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
+  --background-start-rgb: 135, 206, 235;
   --background-end-rgb: 255, 255, 255;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
+    --background-start-rgb: 135, 206, 235;
     --background-end-rgb: 0, 0, 0;
   }
 }
@@ -26,6 +26,26 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-section {
-  height: 100vh;
+main {
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 8rem;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 6rem;
+  line-height: 1;
+}
+
+h3 {
+  font-size: 4.5rem;
+  line-height: 1;
+}
+
+h4 {
+  font-size: 3.75rem;
+  line-height: 1;
 }
